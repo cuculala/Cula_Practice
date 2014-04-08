@@ -1,0 +1,563 @@
+top - 02:33:22 up 2 days, 10:02,  5 users,  load average: 0.54, 0.26, 0.13
+Tasks: 180 total,   1 running, 178 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  7.5 us,  3.3 sy,  0.1 ni, 88.8 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   1026624 total,   932256 used,    94368 free,    48364 buffers
+KiB Swap:  1046524 total,   478264 used,   568260 free,   140516 cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S  %CPU %MEM    TIME+  COMMAND
+27872 elephant  20   0  5200 1296  992 R   4.7  0.1   0:00.08 top
+    1 root      20   0  3624 1600 1012 S   0.0  0.2   0:03.41 init
+    2 root      20   0     0    0    0 S   0.0  0.0   0:00.08 kthreadd
+    3 root      20   0     0    0    0 S   0.0  0.0   0:24.11 ksoftirqd/0
+    6 root      rt   0     0    0    0 S   0.0  0.0   0:00.05 migration/0
+    7 root      rt   0     0    0    0 S   0.0  0.0   0:08.79 watchdog/0
+    8 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 cpuset
+    9 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 khelper
+   10 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kdevtmpfs
+   11 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 netns
+   12 root      20   0     0    0    0 S   0.0  0.0   0:01.56 sync_supers
+   13 root      20   0     0    0    0 S   0.0  0.0   0:00.08 bdi-default
+   14 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kintegrityd
+   15 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kblockd
+   16 root       0 -20     0    0    0 S   0.0  0.0   0:00.02 ata_sff
+   17 root      20   0     0    0    0 S   0.0  0.0   0:00.02 khubd
+   18 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 md
+   21 root      20   0     0    0    0 S   0.0  0.0   0:00.34 khungtaskd
+   22 root      20   0     0    0    0 S   0.0  0.0   1:54.68 kswapd0
+   23 root      25   5     0    0    0 S   0.0  0.0   0:00.00 ksmd
+   24 root      39  19     0    0    0 S   0.0  0.0   0:00.00 khugepaged
+   25 root      20   0     0    0    0 S   0.0  0.0   0:00.00 fsnotify_mark
+   26 root      20   0     0    0    0 S   0.0  0.0   0:00.00 ecryptfs-kthrea
+   27 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 crypto
+   36 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kthrotld
+   39 root      20   0     0    0    0 S   0.0  0.0   0:00.04 scsi_eh_0
+   40 root      20   0     0    0    0 S   0.0  0.0   0:00.01 scsi_eh_1
+   43 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 binder
+   63 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 deferwq
+   64 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 charger_manager
+   65 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 devfreq_wq
+  202 root       0 -20     0    0    0 S   0.0  0.0   0:00.03 mpt_poll_0
+  204 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 mpt/0
+  220 root      20   0     0    0    0 S   0.0  0.0   0:00.00 scsi_eh_2
+  235 root      20   0     0    0    0 S   0.0  0.0   1:04.50 jbd2/sda1-8
+  236 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 ext4-dio-unwrit
+  255 root      20   0     0    0    0 S   0.0  0.0   0:25.93 flush-8:0
+  403 root      20   0  2820  400  348 S   0.0  0.0   0:00.65 upstart-udev-br
+  409 root      20   0  3236  672  672 S   0.0  0.1   0:00.65 udevd
+  445 root      20   0  6688  876  876 S   0.0  0.1   0:00.23 sshd
+  449 messageb  20   0  3976 1620  892 S   0.0  0.2   0:08.97 dbus-daemon
+  462 root      20   0  4780 1072 1072 S   0.0  0.1   0:00.11 bluetoothd
+  482 syslog    20   0 30048  748  636 S   0.0  0.1   0:21.34 rsyslogd
+  485 avahi     20   0  3568 1240 1104 S   0.0  0.1   0:39.61 avahi-daemon
+  486 avahi     20   0  3448  156  140 S   0.0  0.0   0:00.00 avahi-daemon
+  488 root      10 -10     0    0    0 S   0.0  0.0   0:00.00 krfcommd
+  539 root      20   0  7432 2048 1584 S   0.0  0.2   0:04.31 cupsd
+  552 colord    20   0 35628 3368 3060 S   0.0  0.3   0:02.04 colord
+  576 root      20   0  3232  228  228 S   0.0  0.0   0:00.00 udevd
+  579 root      20   0  3232  228  228 S   0.0  0.0   0:00.01 udevd
+  629 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 ttm_swap
+  638 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kpsmoused
+  760 root      20   0  7416 1876 1684 S   0.0  0.2   0:00.90 modem-manager
+  769 root      20   0  2816  424  332 S   0.0  0.0   0:00.20 upstart-socket-
+  781 root      20   0 34320 4324 3764 S   0.0  0.4   0:05.09 NetworkManager
+  804 root      20   0 27016 3416 3064 S   0.0  0.3   0:02.07 polkitd
+  827 root      20   0 13024  880  836 S   0.0  0.1   0:15.70 tpvmlp
+  887 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  899 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  915 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  920 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  924 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  954 root      20   0  2176  476  472 S   0.0  0.0   0:00.00 acpid
+  956 root      20   0  2620  776  708 S   0.0  0.1   0:01.41 cron
+  957 daemon    20   0  2476  156  140 S   0.0  0.0   0:00.67 atd
+  974 whoopsie  20   0 26348 3156 2916 S   0.0  0.3   0:02.07 whoopsie
+ 1041 root      20   0 34488  31m 7096 S   0.0  3.2   0:00.14 lightdm
+ 1106 root      20   0  200m  56m 3640 S   0.0  5.6  88:11.11 Xorg
+ 1171 nobody    20   0  5468 1196 1108 S   0.0  0.1   0:02.82 dnsmasq
+ 1177 root      20   0  4580 1224 1044 S   0.0  0.1   0:02.37 master
+ 1208 root      20   0 17916 2928 2928 S   0.0  0.3   0:00.02 lightdm
+ 1234 root      20   0 26120 3276 2984 S   0.0  0.3   0:08.00 accounts-daemon
+ 1631 root      20   0 29204 2552 2552 S   0.0  0.2   0:01.20 console-kit-dae
+ 1899 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+ 1912 elephant  20   0 51136 5080 4468 S   0.0  0.5   0:02.63 gnome-session
+ 1958 elephant  20   0  4092   24    0 S   0.0  0.0   0:01.80 ssh-agent
+ 1961 elephant  20   0  3844  256  256 S   0.0  0.0   0:00.00 dbus-launch
+ 1962 elephant  20   0  5836 2108  752 S   0.0  0.2   0:18.19 dbus-daemon
+ 1965 root      20   0 32964   92   92 S   0.0  0.0   0:00.00 vmware-vmblock-
+ 1974 elephant  20   0 44396 3176 3012 S   0.0  0.3   0:00.07 at-spi-bus-laun
+ 1988 elephant  20   0  3512 1212 1060 S   0.0  0.1   0:01.32 dbus-daemon
+ 1991 elephant  20   0 17088 2344 2232 S   0.0  0.2   1:12.81 at-spi2-registr
+ 1998 root      20   0 27040 2968 2580 S   0.0  0.3   7:13.33 vmtoolsd
+ 2011 elephant  20   0  151m 6516 5288 S   0.0  0.6   5:35.39 gnome-settings-
+ 2013 elephant  20   0 84188 6120 3428 S   0.0  0.6   0:08.49 gnome-keyring-d
+ 2032 root      20   0 28656 2636 2440 S   0.0  0.3   0:00.85 upowerd
+ 2086 elephant  20   0 26884 2312 2052 S   0.0  0.2   0:00.83 gvfsd
+ 2099 elephant  20   0 43124 2740 2740 S   0.0  0.3   0:00.00 gvfsd-fuse
+ 2207 elephant  20   0  270m  42m  10m S   0.0  4.3 113:08.48 compiz
+ 2225 elephant  20   0 33360 2416 2016 S   0.0  0.2   0:00.91 dconf-service
+ 2231 elephant  20   0 58380 4700 4240 S   0.0  0.5   0:02.70 gnome-fallback-
+ 2233 elephant  20   0 80348 5052 4584 S   0.0  0.5   0:01.84 bluetooth-apple
+ 2236 elephant  20   0 42080 4396 4068 S   0.0  0.4   0:01.42 polkit-gnome-au
+ 2238 elephant  20   0 99544 2316 1460 S   0.0  0.2   0:03.98 pulseaudio
+ 2240 rtkit     21   1 21336 1048 1000 S   0.0  0.1   0:03.38 rtkit-daemon
+ 2245 elephant  20   0  118m 7324 5700 S   0.0  0.7   0:10.76 nm-applet
+ 2249 elephant  20   0  141m 8608 5892 S   0.0  0.8   4:15.66 nautilus
+ 2250 elephant  20   0 62808 6620 5340 S   0.0  0.6  15:07.87 vmtoolsd
+ 2256 elephant  20   0 14220 1412 1412 S   0.0  0.1   0:00.02 gconf-helper
+ 2259 elephant  20   0  9344 1652 1556 S   0.0  0.2   0:01.13 gconfd-2
+ 2273 elephant  20   0 29780 2892 2892 S   0.0  0.3   0:00.28 gvfs-udisks2-vo
+ 2276 root      20   0 43620 3236 3036 S   0.0  0.3   0:02.10 udisksd
+ 2290 elephant  20   0 27492 2108 2108 S   0.0  0.2   0:00.10 gvfs-gphoto2-vo
+ 2296 elephant  20   0 37772 1804 1804 S   0.0  0.2   0:26.84 gvfs-afc-volume
+ 2311 elephant  20   0 36904 2948 2948 S   0.0  0.3   0:00.14 gvfsd-trash
+ 2316 elephant  20   0 34840 1848 1848 S   0.0  0.2   0:00.01 gvfsd-burn
+ 2358 elephant  20   0 78900 6104 5008 S   0.0  0.6   4:02.43 bamfdaemon
+ 2363 elephant  20   0 17200 2188 1996 S   0.0  0.2   0:00.13 gvfsd-metadata
+ 2365 elephant  20   0  2232  392  388 S   0.0  0.0   0:00.00 sh
+ 2366 elephant  20   0 51976 9032 6860 S   0.0  0.9   3:26.01 gtk-window-deco
+ 2370 elephant  20   0 95196  13m 6208 S   0.0  1.3   1:05.82 unity-panel-ser
+ 2372 elephant  20   0 63768 5348 3524 S   0.0  0.5   0:14.87 hud-service
+ 2385 elephant  20   0 53232 2788 2488 S   0.0  0.3   0:02.34 indicator-appli
+ 2388 elephant  20   0 62016 4792 4300 S   0.0  0.5   0:01.47 indicator-print
+ 2389 elephant  20   0 75972 4052 3680 S   0.0  0.4   0:05.09 indicator-datet
+ 2391 elephant  20   0 64984 2976 2976 S   0.0  0.3   0:00.03 indicator-messa
+ 2393 elephant  20   0 65356 3272 2972 S   0.0  0.3   0:00.60 indicator-sessi
+ 2397 elephant  20   0  124m 3512 3188 S   0.0  0.3   0:01.16 indicator-sound
+ 2419 elephant  20   0 48788 2944 2944 S   0.0  0.3   0:00.06 evolution-sourc
+ 2437 elephant  20   0 83196 4696 4332 S   0.0  0.5   0:01.63 telepathy-indic
+ 2446 elephant  20   0 32256 3248 2972 S   0.0  0.3   0:01.45 geoclue-master
+ 2456 elephant  20   0 43956 3708 3304 S   0.0  0.4   0:01.87 mission-control
+ 2462 elephant  20   0  107m 4992 4500 S   0.0  0.5   1:35.62 signon-ui
+ 2469 elephant  20   0 41108 4180 3528 S   0.0  0.4   0:02.03 ubuntu-geoip-pr
+ 2475 elephant  20   0 53824 3432 3148 S   0.0  0.3   0:03.82 zeitgeist-datah
+ 2481 elephant  20   0 44296 4048 3348 S   0.0  0.4   0:02.63 zeitgeist-daemo
+ 2487 elephant  20   0 52016 3872 3072 S   0.0  0.4   0:01.87 zeitgeist-fts
+ 2494 elephant  20   0  4228  176  176 S   0.0  0.0   0:00.00 cat
+ 2511 elephant  20   0 90948 5364 3664 S   0.0  0.5   0:12.37 unity-applicati
+ 2513 elephant  20   0 84440 3344 3016 S   0.0  0.3   0:01.82 unity-files-dae
+ 2516 elephant  20   0 70800 3156 2988 S   0.0  0.3   0:00.66 unity-gwibber-d
+ 2517 elephant  20   0 77040 3620 3016 S   0.0  0.4   0:03.35 unity-music-dae
+ 2519 elephant  20   0  109m 4052 3356 S   0.0  0.4   0:02.15 unity-lens-phot
+ 2521 elephant  20   0 90664 3136 2828 S   0.0  0.3   0:01.10 unity-shopping-
+ 2523 elephant  20   0 84760 4944 3752 S   0.0  0.5   0:02.90 unity-lens-vide
+ 2578 elephant  20   0  104m 3564 3188 S   0.0  0.3   0:01.22 unity-scope-gdo
+ 2579 elephant  20   0 84140 3056 2740 S   0.0  0.3   0:00.69 unity-musicstor
+ 2607 elephant  20   0 98.6m 7124 4536 S   0.0  0.7   0:10.24 unity-scope-vid
+ 2621 elephant  20   0 90036 7416 5408 S   0.0  0.7   0:14.73 update-notifier
+ 2634 root      20   0 17888 4260 2648 S   0.0  0.4   0:00.43 system-service-
+ 2666 elephant  20   0 36556 3228 2972 S   0.0  0.3   0:01.48 deja-dup-monito
+ 2677 elephant  20   0  2232  400  396 S   0.0  0.0   0:00.00 sh
+ 2678 elephant  20   0  110m  15m 8480 S   0.0  1.5   5:46.74 gnome-terminal
+ 2684 elephant  20   0  2404  688  612 S   0.0  0.1   0:00.03 gnome-pty-helpe
+ 2685 elephant  20   0  6388 2352 1396 S   0.0  0.2   0:05.05 bash
+ 3649 elephant  20   0  6348 1392  896 S   0.0  0.1   0:01.53 bash
+ 4529 elephant  20   0  135m 7160 4900 S   0.0  0.7   0:06.83 check-new-relea
+ 7100 elephant  20   0  699m  83m  24m S   0.0  8.3  37:41.56 chrome
+ 7108 elephant  20   0  106m 2320 1272 S   0.0  0.2   0:05.29 chrome
+ 7109 elephant  20   0  2256  240  240 S   0.0  0.0   0:00.01 chrome-sandbox
+ 7110 elephant  20   0  148m 3212 2284 S   0.0  0.3   0:01.85 chrome
+ 7114 elephant  20   0 1046m 1340 1340 S   0.0  0.1   0:00.12 nacl_helper_boo
+ 7115 elephant  20   0  172m 1696  624 S   0.0  0.2   0:02.03 chrome
+ 7183 elephant  20   0  205m  19m 9640 S   0.0  1.9   0:35.58 chrome
+ 7209 elephant  20   0  206m  18m  11m S   0.0  1.9   0:11.54 chrome
+ 7219 elephant  20   0  271m  62m 9936 S   0.0  6.2   4:25.00 chrome
+ 7233 elephant  20   0  207m  22m  12m S   0.0  2.2   2:30.52 chrome
+ 7287 elephant  20   0  286m  58m  16m S   0.0  5.9   2:03.54 chrome
+ 7358 elephant  20   0  251m  38m  16m S   0.0  3.8   1:22.05 chrome
+10528 elephant  20   0 74496 9192 6180 S   0.0  0.9   0:09.62 notify-osd
+10535 elephant  20   0 43240 7888 6316 S   0.0  0.8   0:56.62 gnome-screensav
+11055 elephant  20   0  238m  29m 9840 S   0.0  3.0   2:45.04 chrome
+11087 elephant  20   0  266m  44m  12m S   0.0  4.4   1:23.04 chrome
+11474 elephant  20   0  6736 1080  864 S   0.0  0.1   0:01.73 bash
+12006 elephant  20   0  303m  70m  19m S   0.0  7.0  99:31.17 chrome
+12413 elephant  20   0  227m  44m  22m S   0.0  4.5   1:54.69 chrome
+12598 elephant  20   0  284m  67m  14m S   0.0  6.7  54:24.69 chrome
+18129 root      20   0     0    0    0 S   0.0  0.0   0:11.17 kworker/u:0
+18764 elephant  30  10  166m  36m 9672 S   0.0  3.6   0:34.95 update-manager
+19878 elephant  20   0  6320 1936 1500 T   0.0  0.2   0:00.01 ssh
+23456 root      20   0  5492 2688  968 S   0.0  0.3   0:00.44 dhclient
+23524 postfix   20   0  4648 1296 1084 S   0.0  0.1   0:00.06 qmgr
+23609 elephant  20   0  135m  25m  11m S   0.0  2.6   0:02.29 check-new-relea
+23695 elephant  20   0  6696 3172 1692 S   0.0  0.3   0:00.74 bash
+23775 elephant  20   0  232m  41m  22m S   0.0  4.1   0:11.91 chrome
+27681 root      20   0     0    0    0 S   0.0  0.0   0:00.12 kworker/0:2
+27707 root      20   0     0    0    0 S   0.0  0.0   0:00.20 kworker/0:1
+27730 root      20   0     0    0    0 S   0.0  0.0   0:00.42 kworker/0:0
+27743 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/u:1
+27749 postfix   20   0  4600 1312 1096 S   0.0  0.1   0:00.01 pickup
+
+top - 02:33:32 up 2 days, 10:02,  5 users,  load average: 0.54, 0.26, 0.14
+Tasks: 180 total,   1 running, 178 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  2.6 us,  0.9 sy,  0.0 ni, 96.4 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st
+KiB Mem:   1026624 total,   932512 used,    94112 free,    48380 buffers
+KiB Swap:  1046524 total,   478264 used,   568260 free,   140532 cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S  %CPU %MEM    TIME+  COMMAND
+12598 elephant  20   0  284m  67m  14m S   2.1  6.7  54:24.90 chrome
+ 1106 root      20   0  200m  56m 3640 S   0.8  5.6  88:11.19 Xorg
+ 2207 elephant  20   0  270m  42m  10m S   0.8  4.3 113:08.56 compiz
+ 2250 elephant  20   0 62808 6620 5340 S   0.5  0.6  15:07.92 vmtoolsd
+ 7100 elephant  20   0  699m  83m  24m S   0.4  8.3  37:41.60 chrome
+ 1998 root      20   0 27040 2968 2580 S   0.2  0.3   7:13.35 vmtoolsd
+ 2678 elephant  20   0  110m  15m 8480 S   0.2  1.5   5:46.76 gnome-terminal
+    3 root      20   0     0    0    0 S   0.1  0.0   0:24.12 ksoftirqd/0
+  485 avahi     20   0  3568 1240 1104 S   0.1  0.1   0:39.62 avahi-daemon
+ 2011 elephant  20   0  151m 6516 5288 S   0.1  0.6   5:35.40 gnome-settings-
+ 2249 elephant  20   0  141m 8608 5892 S   0.1  0.8   4:15.67 nautilus
+ 2607 elephant  20   0 98.6m 7124 4536 S   0.1  0.7   0:10.25 unity-scope-vid
+11055 elephant  20   0  238m  29m 9840 S   0.1  3.0   2:45.05 chrome
+27872 elephant  20   0  5208 1340 1020 R   0.1  0.1   0:00.09 top
+    1 root      20   0  3624 1600 1012 S   0.0  0.2   0:03.41 init
+    2 root      20   0     0    0    0 S   0.0  0.0   0:00.08 kthreadd
+    6 root      rt   0     0    0    0 S   0.0  0.0   0:00.05 migration/0
+    7 root      rt   0     0    0    0 S   0.0  0.0   0:08.79 watchdog/0
+    8 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 cpuset
+    9 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 khelper
+   10 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kdevtmpfs
+   11 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 netns
+   12 root      20   0     0    0    0 S   0.0  0.0   0:01.56 sync_supers
+   13 root      20   0     0    0    0 S   0.0  0.0   0:00.08 bdi-default
+   14 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kintegrityd
+   15 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kblockd
+   16 root       0 -20     0    0    0 S   0.0  0.0   0:00.02 ata_sff
+   17 root      20   0     0    0    0 S   0.0  0.0   0:00.02 khubd
+   18 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 md
+   21 root      20   0     0    0    0 S   0.0  0.0   0:00.34 khungtaskd
+   22 root      20   0     0    0    0 S   0.0  0.0   1:54.68 kswapd0
+   23 root      25   5     0    0    0 S   0.0  0.0   0:00.00 ksmd
+   24 root      39  19     0    0    0 S   0.0  0.0   0:00.00 khugepaged
+   25 root      20   0     0    0    0 S   0.0  0.0   0:00.00 fsnotify_mark
+   26 root      20   0     0    0    0 S   0.0  0.0   0:00.00 ecryptfs-kthrea
+   27 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 crypto
+   36 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kthrotld
+   39 root      20   0     0    0    0 S   0.0  0.0   0:00.04 scsi_eh_0
+   40 root      20   0     0    0    0 S   0.0  0.0   0:00.01 scsi_eh_1
+   43 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 binder
+   63 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 deferwq
+   64 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 charger_manager
+   65 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 devfreq_wq
+  202 root       0 -20     0    0    0 S   0.0  0.0   0:00.03 mpt_poll_0
+  204 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 mpt/0
+  220 root      20   0     0    0    0 S   0.0  0.0   0:00.00 scsi_eh_2
+  235 root      20   0     0    0    0 S   0.0  0.0   1:04.50 jbd2/sda1-8
+  236 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 ext4-dio-unwrit
+  255 root      20   0     0    0    0 S   0.0  0.0   0:25.93 flush-8:0
+  403 root      20   0  2820  400  348 S   0.0  0.0   0:00.65 upstart-udev-br
+  409 root      20   0  3236  672  672 S   0.0  0.1   0:00.65 udevd
+  445 root      20   0  6688  876  876 S   0.0  0.1   0:00.23 sshd
+  449 messageb  20   0  3976 1620  892 S   0.0  0.2   0:08.97 dbus-daemon
+  462 root      20   0  4780 1072 1072 S   0.0  0.1   0:00.11 bluetoothd
+  482 syslog    20   0 30048  748  636 S   0.0  0.1   0:21.34 rsyslogd
+  486 avahi     20   0  3448  156  140 S   0.0  0.0   0:00.00 avahi-daemon
+  488 root      10 -10     0    0    0 S   0.0  0.0   0:00.00 krfcommd
+  539 root      20   0  7432 2048 1584 S   0.0  0.2   0:04.31 cupsd
+  552 colord    20   0 35628 3368 3060 S   0.0  0.3   0:02.04 colord
+  576 root      20   0  3232  228  228 S   0.0  0.0   0:00.00 udevd
+  579 root      20   0  3232  228  228 S   0.0  0.0   0:00.01 udevd
+  629 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 ttm_swap
+  638 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kpsmoused
+  760 root      20   0  7416 1876 1684 S   0.0  0.2   0:00.90 modem-manager
+  769 root      20   0  2816  424  332 S   0.0  0.0   0:00.20 upstart-socket-
+  781 root      20   0 34320 4324 3764 S   0.0  0.4   0:05.09 NetworkManager
+  804 root      20   0 27016 3416 3064 S   0.0  0.3   0:02.07 polkitd
+  827 root      20   0 13024  880  836 S   0.0  0.1   0:15.70 tpvmlp
+  887 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  899 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  915 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  920 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  924 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  954 root      20   0  2176  476  472 S   0.0  0.0   0:00.00 acpid
+  956 root      20   0  2620  776  708 S   0.0  0.1   0:01.41 cron
+  957 daemon    20   0  2476  156  140 S   0.0  0.0   0:00.67 atd
+  974 whoopsie  20   0 26348 3156 2916 S   0.0  0.3   0:02.07 whoopsie
+ 1041 root      20   0 34488  31m 7096 S   0.0  3.2   0:00.14 lightdm
+ 1171 nobody    20   0  5468 1196 1108 S   0.0  0.1   0:02.82 dnsmasq
+ 1177 root      20   0  4580 1224 1044 S   0.0  0.1   0:02.37 master
+ 1208 root      20   0 17916 2928 2928 S   0.0  0.3   0:00.02 lightdm
+ 1234 root      20   0 26120 3276 2984 S   0.0  0.3   0:08.00 accounts-daemon
+ 1631 root      20   0 29204 2552 2552 S   0.0  0.2   0:01.20 console-kit-dae
+ 1899 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+ 1912 elephant  20   0 51136 5080 4468 S   0.0  0.5   0:02.63 gnome-session
+ 1958 elephant  20   0  4092   24    0 S   0.0  0.0   0:01.80 ssh-agent
+ 1961 elephant  20   0  3844  256  256 S   0.0  0.0   0:00.00 dbus-launch
+ 1962 elephant  20   0  5836 2108  752 S   0.0  0.2   0:18.19 dbus-daemon
+ 1965 root      20   0 32964   92   92 S   0.0  0.0   0:00.00 vmware-vmblock-
+ 1974 elephant  20   0 44396 3176 3012 S   0.0  0.3   0:00.07 at-spi-bus-laun
+ 1988 elephant  20   0  3512 1212 1060 S   0.0  0.1   0:01.32 dbus-daemon
+ 1991 elephant  20   0 17088 2344 2232 S   0.0  0.2   1:12.81 at-spi2-registr
+ 2013 elephant  20   0 84188 6120 3428 S   0.0  0.6   0:08.49 gnome-keyring-d
+ 2032 root      20   0 28656 2636 2440 S   0.0  0.3   0:00.85 upowerd
+ 2086 elephant  20   0 26884 2312 2052 S   0.0  0.2   0:00.83 gvfsd
+ 2099 elephant  20   0 43124 2740 2740 S   0.0  0.3   0:00.00 gvfsd-fuse
+ 2225 elephant  20   0 33360 2416 2016 S   0.0  0.2   0:00.91 dconf-service
+ 2231 elephant  20   0 58380 4700 4240 S   0.0  0.5   0:02.70 gnome-fallback-
+ 2233 elephant  20   0 80348 5052 4584 S   0.0  0.5   0:01.84 bluetooth-apple
+ 2236 elephant  20   0 42080 4396 4068 S   0.0  0.4   0:01.42 polkit-gnome-au
+ 2238 elephant  20   0 99544 2316 1460 S   0.0  0.2   0:03.98 pulseaudio
+ 2240 rtkit     21   1 21336 1048 1000 S   0.0  0.1   0:03.38 rtkit-daemon
+ 2245 elephant  20   0  118m 7324 5700 S   0.0  0.7   0:10.76 nm-applet
+ 2256 elephant  20   0 14220 1412 1412 S   0.0  0.1   0:00.02 gconf-helper
+ 2259 elephant  20   0  9344 1652 1556 S   0.0  0.2   0:01.13 gconfd-2
+ 2273 elephant  20   0 29780 2892 2892 S   0.0  0.3   0:00.28 gvfs-udisks2-vo
+ 2276 root      20   0 43620 3236 3036 S   0.0  0.3   0:02.10 udisksd
+ 2290 elephant  20   0 27492 2108 2108 S   0.0  0.2   0:00.10 gvfs-gphoto2-vo
+ 2296 elephant  20   0 37772 1804 1804 S   0.0  0.2   0:26.84 gvfs-afc-volume
+ 2311 elephant  20   0 36904 2948 2948 S   0.0  0.3   0:00.14 gvfsd-trash
+ 2316 elephant  20   0 34840 1848 1848 S   0.0  0.2   0:00.01 gvfsd-burn
+ 2358 elephant  20   0 78900 6104 5008 S   0.0  0.6   4:02.43 bamfdaemon
+ 2363 elephant  20   0 17200 2188 1996 S   0.0  0.2   0:00.13 gvfsd-metadata
+ 2365 elephant  20   0  2232  392  388 S   0.0  0.0   0:00.00 sh
+ 2366 elephant  20   0 51976 9032 6860 S   0.0  0.9   3:26.01 gtk-window-deco
+ 2370 elephant  20   0 95196  13m 6208 S   0.0  1.3   1:05.82 unity-panel-ser
+ 2372 elephant  20   0 63768 5348 3524 S   0.0  0.5   0:14.87 hud-service
+ 2385 elephant  20   0 53232 2788 2488 S   0.0  0.3   0:02.34 indicator-appli
+ 2388 elephant  20   0 62016 4792 4300 S   0.0  0.5   0:01.47 indicator-print
+ 2389 elephant  20   0 75972 4052 3680 S   0.0  0.4   0:05.09 indicator-datet
+ 2391 elephant  20   0 64984 2976 2976 S   0.0  0.3   0:00.03 indicator-messa
+ 2393 elephant  20   0 65356 3272 2972 S   0.0  0.3   0:00.60 indicator-sessi
+ 2397 elephant  20   0  124m 3512 3188 S   0.0  0.3   0:01.16 indicator-sound
+ 2419 elephant  20   0 48788 2944 2944 S   0.0  0.3   0:00.06 evolution-sourc
+ 2437 elephant  20   0 83196 4696 4332 S   0.0  0.5   0:01.63 telepathy-indic
+ 2446 elephant  20   0 32256 3248 2972 S   0.0  0.3   0:01.45 geoclue-master
+ 2456 elephant  20   0 43956 3708 3304 S   0.0  0.4   0:01.87 mission-control
+ 2462 elephant  20   0  107m 4992 4500 S   0.0  0.5   1:35.62 signon-ui
+ 2469 elephant  20   0 41108 4180 3528 S   0.0  0.4   0:02.03 ubuntu-geoip-pr
+ 2475 elephant  20   0 53824 3432 3148 S   0.0  0.3   0:03.82 zeitgeist-datah
+ 2481 elephant  20   0 44296 4048 3348 S   0.0  0.4   0:02.63 zeitgeist-daemo
+ 2487 elephant  20   0 52016 3872 3072 S   0.0  0.4   0:01.87 zeitgeist-fts
+ 2494 elephant  20   0  4228  176  176 S   0.0  0.0   0:00.00 cat
+ 2511 elephant  20   0 90948 5364 3664 S   0.0  0.5   0:12.37 unity-applicati
+ 2513 elephant  20   0 84440 3344 3016 S   0.0  0.3   0:01.82 unity-files-dae
+ 2516 elephant  20   0 70800 3156 2988 S   0.0  0.3   0:00.66 unity-gwibber-d
+ 2517 elephant  20   0 77040 3620 3016 S   0.0  0.4   0:03.35 unity-music-dae
+ 2519 elephant  20   0  109m 4052 3356 S   0.0  0.4   0:02.15 unity-lens-phot
+ 2521 elephant  20   0 90664 3136 2828 S   0.0  0.3   0:01.10 unity-shopping-
+ 2523 elephant  20   0 84760 4944 3752 S   0.0  0.5   0:02.90 unity-lens-vide
+ 2578 elephant  20   0  104m 3564 3188 S   0.0  0.3   0:01.22 unity-scope-gdo
+ 2579 elephant  20   0 84140 3056 2740 S   0.0  0.3   0:00.69 unity-musicstor
+ 2621 elephant  20   0 90036 7416 5408 S   0.0  0.7   0:14.73 update-notifier
+ 2634 root      20   0 17888 4260 2648 S   0.0  0.4   0:00.43 system-service-
+ 2666 elephant  20   0 36556 3228 2972 S   0.0  0.3   0:01.48 deja-dup-monito
+ 2677 elephant  20   0  2232  400  396 S   0.0  0.0   0:00.00 sh
+ 2684 elephant  20   0  2404  688  612 S   0.0  0.1   0:00.03 gnome-pty-helpe
+ 2685 elephant  20   0  6388 2352 1396 S   0.0  0.2   0:05.05 bash
+ 3649 elephant  20   0  6348 1392  896 S   0.0  0.1   0:01.53 bash
+ 4529 elephant  20   0  135m 7160 4900 S   0.0  0.7   0:06.83 check-new-relea
+ 7108 elephant  20   0  106m 2320 1272 S   0.0  0.2   0:05.29 chrome
+ 7109 elephant  20   0  2256  240  240 S   0.0  0.0   0:00.01 chrome-sandbox
+ 7110 elephant  20   0  148m 3212 2284 S   0.0  0.3   0:01.85 chrome
+ 7114 elephant  20   0 1046m 1340 1340 S   0.0  0.1   0:00.12 nacl_helper_boo
+ 7115 elephant  20   0  172m 1696  624 S   0.0  0.2   0:02.03 chrome
+ 7183 elephant  20   0  205m  19m 9640 S   0.0  1.9   0:35.58 chrome
+ 7209 elephant  20   0  206m  18m  11m S   0.0  1.9   0:11.54 chrome
+ 7219 elephant  20   0  271m  62m 9936 S   0.0  6.2   4:25.00 chrome
+ 7233 elephant  20   0  207m  22m  12m S   0.0  2.2   2:30.52 chrome
+ 7287 elephant  20   0  286m  58m  16m S   0.0  5.9   2:03.54 chrome
+ 7358 elephant  20   0  251m  38m  16m S   0.0  3.8   1:22.05 chrome
+10528 elephant  20   0 74496 9192 6180 S   0.0  0.9   0:09.62 notify-osd
+10535 elephant  20   0 43240 7888 6316 S   0.0  0.8   0:56.62 gnome-screensav
+11087 elephant  20   0  266m  44m  12m S   0.0  4.4   1:23.04 chrome
+11474 elephant  20   0  6736 1080  864 S   0.0  0.1   0:01.73 bash
+12006 elephant  20   0  303m  70m  19m S   0.0  7.0  99:31.17 chrome
+12413 elephant  20   0  227m  44m  22m S   0.0  4.5   1:54.69 chrome
+18129 root      20   0     0    0    0 S   0.0  0.0   0:11.17 kworker/u:0
+18764 elephant  30  10  166m  36m 9672 S   0.0  3.6   0:34.95 update-manager
+19878 elephant  20   0  6320 1936 1500 T   0.0  0.2   0:00.01 ssh
+23456 root      20   0  5492 2688  968 S   0.0  0.3   0:00.44 dhclient
+23524 postfix   20   0  4648 1296 1084 S   0.0  0.1   0:00.06 qmgr
+23609 elephant  20   0  135m  25m  11m S   0.0  2.6   0:02.29 check-new-relea
+23695 elephant  20   0  6696 3172 1692 S   0.0  0.3   0:00.74 bash
+23775 elephant  20   0  232m  41m  22m S   0.0  4.1   0:11.91 chrome
+27681 root      20   0     0    0    0 S   0.0  0.0   0:00.12 kworker/0:2
+27707 root      20   0     0    0    0 S   0.0  0.0   0:00.20 kworker/0:1
+27730 root      20   0     0    0    0 S   0.0  0.0   0:00.42 kworker/0:0
+27743 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/u:1
+27749 postfix   20   0  4600 1312 1096 S   0.0  0.1   0:00.01 pickup
+
+top - 02:33:42 up 2 days, 10:03,  5 users,  load average: 0.53, 0.27, 0.14
+Tasks: 180 total,   1 running, 178 sleeping,   1 stopped,   0 zombie
+%Cpu(s): 14.9 us,  4.6 sy,  0.0 ni, 78.3 id,  2.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem:   1026624 total,   933372 used,    93252 free,    48388 buffers
+KiB Swap:  1046524 total,   478264 used,   568260 free,   140764 cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S  %CPU %MEM    TIME+  COMMAND
+ 1106 root      20   0  200m  56m 3640 S   6.6  5.6  88:11.85 Xorg
+ 2207 elephant  20   0  270m  43m  10m S   5.2  4.3 113:09.08 compiz
+12598 elephant  20   0  285m  67m  14m S   4.8  6.8  54:25.38 chrome
+ 2678 elephant  20   0  110m  15m 8480 S   1.6  1.5   5:46.92 gnome-terminal
+ 7100 elephant  20   0  699m  83m  24m S   1.4  8.3  37:41.74 chrome
+ 2250 elephant  20   0 62808 6620 5340 S   0.6  0.6  15:07.98 vmtoolsd
+11087 elephant  20   0  266m  44m  12m S   0.6  4.4   1:23.10 chrome
+ 2366 elephant  20   0 51976 9032 6860 S   0.3  0.9   3:26.04 gtk-window-deco
+27872 elephant  20   0  5208 1340 1020 R   0.3  0.1   0:00.12 top
+ 2011 elephant  20   0  151m 6516 5288 S   0.2  0.6   5:35.42 gnome-settings-
+10535 elephant  20   0 43240 7888 6316 S   0.2  0.8   0:56.64 gnome-screensav
+ 1998 root      20   0 27040 2968 2580 S   0.1  0.3   7:13.36 vmtoolsd
+ 2358 elephant  20   0 78900 6104 5008 S   0.1  0.6   4:02.44 bamfdaemon
+ 2517 elephant  20   0 77040 3620 3016 S   0.1  0.4   0:03.36 unity-music-dae
+ 7219 elephant  20   0  271m  62m 9936 S   0.1  6.2   4:25.01 chrome
+ 7233 elephant  20   0  207m  22m  12m S   0.1  2.2   2:30.53 chrome
+27730 root      20   0     0    0    0 S   0.1  0.0   0:00.43 kworker/0:0
+    1 root      20   0  3624 1600 1012 S   0.0  0.2   0:03.41 init
+    2 root      20   0     0    0    0 S   0.0  0.0   0:00.08 kthreadd
+    3 root      20   0     0    0    0 S   0.0  0.0   0:24.12 ksoftirqd/0
+    6 root      rt   0     0    0    0 S   0.0  0.0   0:00.05 migration/0
+    7 root      rt   0     0    0    0 S   0.0  0.0   0:08.79 watchdog/0
+    8 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 cpuset
+    9 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 khelper
+   10 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kdevtmpfs
+   11 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 netns
+   12 root      20   0     0    0    0 S   0.0  0.0   0:01.56 sync_supers
+   13 root      20   0     0    0    0 S   0.0  0.0   0:00.08 bdi-default
+   14 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kintegrityd
+   15 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kblockd
+   16 root       0 -20     0    0    0 S   0.0  0.0   0:00.02 ata_sff
+   17 root      20   0     0    0    0 S   0.0  0.0   0:00.02 khubd
+   18 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 md
+   21 root      20   0     0    0    0 S   0.0  0.0   0:00.34 khungtaskd
+   22 root      20   0     0    0    0 S   0.0  0.0   1:54.68 kswapd0
+   23 root      25   5     0    0    0 S   0.0  0.0   0:00.00 ksmd
+   24 root      39  19     0    0    0 S   0.0  0.0   0:00.00 khugepaged
+   25 root      20   0     0    0    0 S   0.0  0.0   0:00.00 fsnotify_mark
+   26 root      20   0     0    0    0 S   0.0  0.0   0:00.00 ecryptfs-kthrea
+   27 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 crypto
+   36 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kthrotld
+   39 root      20   0     0    0    0 S   0.0  0.0   0:00.04 scsi_eh_0
+   40 root      20   0     0    0    0 S   0.0  0.0   0:00.01 scsi_eh_1
+   43 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 binder
+   63 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 deferwq
+   64 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 charger_manager
+   65 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 devfreq_wq
+  202 root       0 -20     0    0    0 S   0.0  0.0   0:00.03 mpt_poll_0
+  204 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 mpt/0
+  220 root      20   0     0    0    0 S   0.0  0.0   0:00.00 scsi_eh_2
+  235 root      20   0     0    0    0 S   0.0  0.0   1:04.50 jbd2/sda1-8
+  236 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 ext4-dio-unwrit
+  255 root      20   0     0    0    0 S   0.0  0.0   0:25.93 flush-8:0
+  403 root      20   0  2820  400  348 S   0.0  0.0   0:00.65 upstart-udev-br
+  409 root      20   0  3236  672  672 S   0.0  0.1   0:00.65 udevd
+  445 root      20   0  6688  876  876 S   0.0  0.1   0:00.23 sshd
+  449 messageb  20   0  3976 1620  892 S   0.0  0.2   0:08.97 dbus-daemon
+  462 root      20   0  4780 1072 1072 S   0.0  0.1   0:00.11 bluetoothd
+  482 syslog    20   0 30048  748  636 S   0.0  0.1   0:21.34 rsyslogd
+  485 avahi     20   0  3568 1240 1104 S   0.0  0.1   0:39.62 avahi-daemon
+  486 avahi     20   0  3448  156  140 S   0.0  0.0   0:00.00 avahi-daemon
+  488 root      10 -10     0    0    0 S   0.0  0.0   0:00.00 krfcommd
+  539 root      20   0  7432 2048 1584 S   0.0  0.2   0:04.31 cupsd
+  552 colord    20   0 35628 3368 3060 S   0.0  0.3   0:02.04 colord
+  576 root      20   0  3232  228  228 S   0.0  0.0   0:00.00 udevd
+  579 root      20   0  3232  228  228 S   0.0  0.0   0:00.01 udevd
+  629 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 ttm_swap
+  638 root       0 -20     0    0    0 S   0.0  0.0   0:00.00 kpsmoused
+  760 root      20   0  7416 1876 1684 S   0.0  0.2   0:00.90 modem-manager
+  769 root      20   0  2816  424  332 S   0.0  0.0   0:00.20 upstart-socket-
+  781 root      20   0 34320 4324 3764 S   0.0  0.4   0:05.09 NetworkManager
+  804 root      20   0 27016 3416 3064 S   0.0  0.3   0:02.07 polkitd
+  827 root      20   0 13024  880  836 S   0.0  0.1   0:15.70 tpvmlp
+  887 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  899 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  915 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  920 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  924 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+  954 root      20   0  2176  476  472 S   0.0  0.0   0:00.00 acpid
+  956 root      20   0  2620  776  708 S   0.0  0.1   0:01.41 cron
+  957 daemon    20   0  2476  156  140 S   0.0  0.0   0:00.67 atd
+  974 whoopsie  20   0 26348 3156 2916 S   0.0  0.3   0:02.07 whoopsie
+ 1041 root      20   0 34488  31m 7096 S   0.0  3.2   0:00.14 lightdm
+ 1171 nobody    20   0  5468 1196 1108 S   0.0  0.1   0:02.82 dnsmasq
+ 1177 root      20   0  4580 1224 1044 S   0.0  0.1   0:02.37 master
+ 1208 root      20   0 17916 2928 2928 S   0.0  0.3   0:00.02 lightdm
+ 1234 root      20   0 26120 3276 2984 S   0.0  0.3   0:08.00 accounts-daemon
+ 1631 root      20   0 29204 2552 2552 S   0.0  0.2   0:01.20 console-kit-dae
+ 1899 root      20   0  4632  700  696 S   0.0  0.1   0:00.00 getty
+ 1912 elephant  20   0 51136 5080 4468 S   0.0  0.5   0:02.63 gnome-session
+ 1958 elephant  20   0  4092   24    0 S   0.0  0.0   0:01.80 ssh-agent
+ 1961 elephant  20   0  3844  256  256 S   0.0  0.0   0:00.00 dbus-launch
+ 1962 elephant  20   0  5836 2108  752 S   0.0  0.2   0:18.19 dbus-daemon
+ 1965 root      20   0 32964   92   92 S   0.0  0.0   0:00.00 vmware-vmblock-
+ 1974 elephant  20   0 44396 3176 3012 S   0.0  0.3   0:00.07 at-spi-bus-laun
+ 1988 elephant  20   0  3512 1212 1060 S   0.0  0.1   0:01.32 dbus-daemon
+ 1991 elephant  20   0 17088 2344 2232 S   0.0  0.2   1:12.81 at-spi2-registr
+ 2013 elephant  20   0 84188 6120 3428 S   0.0  0.6   0:08.49 gnome-keyring-d
+ 2032 root      20   0 28656 2636 2440 S   0.0  0.3   0:00.85 upowerd
+ 2086 elephant  20   0 26884 2312 2052 S   0.0  0.2   0:00.83 gvfsd
+ 2099 elephant  20   0 43124 2740 2740 S   0.0  0.3   0:00.00 gvfsd-fuse
+ 2225 elephant  20   0 33360 2416 2016 S   0.0  0.2   0:00.91 dconf-service
+ 2231 elephant  20   0 58380 4700 4240 S   0.0  0.5   0:02.70 gnome-fallback-
+ 2233 elephant  20   0 80348 5052 4584 S   0.0  0.5   0:01.84 bluetooth-apple
+ 2236 elephant  20   0 42080 4396 4068 S   0.0  0.4   0:01.42 polkit-gnome-au
+ 2238 elephant  20   0 99544 2316 1460 S   0.0  0.2   0:03.98 pulseaudio
+ 2240 rtkit     21   1 21336 1048 1000 S   0.0  0.1   0:03.38 rtkit-daemon
+ 2245 elephant  20   0  118m 7324 5700 S   0.0  0.7   0:10.76 nm-applet
+ 2249 elephant  20   0  141m 8608 5892 S   0.0  0.8   4:15.67 nautilus
+ 2256 elephant  20   0 14220 1412 1412 S   0.0  0.1   0:00.02 gconf-helper
+ 2259 elephant  20   0  9344 1652 1556 S   0.0  0.2   0:01.13 gconfd-2
+ 2273 elephant  20   0 29780 2892 2892 S   0.0  0.3   0:00.28 gvfs-udisks2-vo
+ 2276 root      20   0 43620 3236 3036 S   0.0  0.3   0:02.10 udisksd
+ 2290 elephant  20   0 27492 2108 2108 S   0.0  0.2   0:00.10 gvfs-gphoto2-vo
+ 2296 elephant  20   0 37772 1804 1804 S   0.0  0.2   0:26.84 gvfs-afc-volume
+ 2311 elephant  20   0 36904 2948 2948 S   0.0  0.3   0:00.14 gvfsd-trash
+ 2316 elephant  20   0 34840 1848 1848 S   0.0  0.2   0:00.01 gvfsd-burn
+ 2363 elephant  20   0 17200 2188 1996 S   0.0  0.2   0:00.13 gvfsd-metadata
+ 2365 elephant  20   0  2232  392  388 S   0.0  0.0   0:00.00 sh
+ 2370 elephant  20   0 95196  13m 6208 S   0.0  1.3   1:05.82 unity-panel-ser
+ 2372 elephant  20   0 63768 5348 3524 S   0.0  0.5   0:14.87 hud-service
+ 2385 elephant  20   0 53232 2788 2488 S   0.0  0.3   0:02.34 indicator-appli
+ 2388 elephant  20   0 62016 4792 4300 S   0.0  0.5   0:01.47 indicator-print
+ 2389 elephant  20   0 75972 4052 3680 S   0.0  0.4   0:05.09 indicator-datet
+ 2391 elephant  20   0 64984 2976 2976 S   0.0  0.3   0:00.03 indicator-messa
+ 2393 elephant  20   0 65356 3272 2972 S   0.0  0.3   0:00.60 indicator-sessi
+ 2397 elephant  20   0  124m 3512 3188 S   0.0  0.3   0:01.16 indicator-sound
+ 2419 elephant  20   0 48788 2944 2944 S   0.0  0.3   0:00.06 evolution-sourc
+ 2437 elephant  20   0 83196 4696 4332 S   0.0  0.5   0:01.63 telepathy-indic
+ 2446 elephant  20   0 32256 3248 2972 S   0.0  0.3   0:01.45 geoclue-master
+ 2456 elephant  20   0 43956 3708 3304 S   0.0  0.4   0:01.87 mission-control
+ 2462 elephant  20   0  107m 4992 4500 S   0.0  0.5   1:35.62 signon-ui
+ 2469 elephant  20   0 41108 4180 3528 S   0.0  0.4   0:02.03 ubuntu-geoip-pr
+ 2475 elephant  20   0 53824 3432 3148 S   0.0  0.3   0:03.82 zeitgeist-datah
+ 2481 elephant  20   0 44296 4048 3348 S   0.0  0.4   0:02.63 zeitgeist-daemo
+ 2487 elephant  20   0 52016 3872 3072 S   0.0  0.4   0:01.87 zeitgeist-fts
+ 2494 elephant  20   0  4228  176  176 S   0.0  0.0   0:00.00 cat
+ 2511 elephant  20   0 90948 5364 3664 S   0.0  0.5   0:12.37 unity-applicati
+ 2513 elephant  20   0 84440 3344 3016 S   0.0  0.3   0:01.82 unity-files-dae
+ 2516 elephant  20   0 70800 3156 2988 S   0.0  0.3   0:00.66 unity-gwibber-d
+ 2519 elephant  20   0  109m 4052 3356 S   0.0  0.4   0:02.15 unity-lens-phot
+ 2521 elephant  20   0 90664 3136 2828 S   0.0  0.3   0:01.10 unity-shopping-
+ 2523 elephant  20   0 84760 4944 3752 S   0.0  0.5   0:02.90 unity-lens-vide
+ 2578 elephant  20   0  104m 3564 3188 S   0.0  0.3   0:01.22 unity-scope-gdo
+ 2579 elephant  20   0 84140 3056 2740 S   0.0  0.3   0:00.69 unity-musicstor
+ 2607 elephant  20   0 98.6m 7124 4536 S   0.0  0.7   0:10.25 unity-scope-vid
+ 2621 elephant  20   0 90036 7416 5408 S   0.0  0.7   0:14.73 update-notifier
+ 2634 root      20   0 17888 4260 2648 S   0.0  0.4   0:00.43 system-service-
+ 2666 elephant  20   0 36556 3228 2972 S   0.0  0.3   0:01.48 deja-dup-monito
+ 2677 elephant  20   0  2232  400  396 S   0.0  0.0   0:00.00 sh
+ 2684 elephant  20   0  2404  688  612 S   0.0  0.1   0:00.03 gnome-pty-helpe
+ 2685 elephant  20   0  6388 2352 1396 S   0.0  0.2   0:05.05 bash
+ 3649 elephant  20   0  6348 1392  896 S   0.0  0.1   0:01.53 bash
+ 4529 elephant  20   0  135m 7160 4900 S   0.0  0.7   0:06.83 check-new-relea
+ 7108 elephant  20   0  106m 2320 1272 S   0.0  0.2   0:05.29 chrome
+ 7109 elephant  20   0  2256  240  240 S   0.0  0.0   0:00.01 chrome-sandbox
+ 7110 elephant  20   0  148m 3212 2284 S   0.0  0.3   0:01.85 chrome
+ 7114 elephant  20   0 1046m 1340 1340 S   0.0  0.1   0:00.12 nacl_helper_boo
+ 7115 elephant  20   0  172m 1696  624 S   0.0  0.2   0:02.03 chrome
+ 7183 elephant  20   0  205m  19m 9640 S   0.0  1.9   0:35.58 chrome
+ 7209 elephant  20   0  206m  18m  11m S   0.0  1.9   0:11.54 chrome
+ 7287 elephant  20   0  286m  58m  16m S   0.0  5.9   2:03.54 chrome
+ 7358 elephant  20   0  251m  38m  16m S   0.0  3.8   1:22.05 chrome
+10528 elephant  20   0 74496 9192 6180 S   0.0  0.9   0:09.62 notify-osd
+11055 elephant  20   0  238m  29m 9840 S   0.0  3.0   2:45.05 chrome
+11474 elephant  20   0  6736 1080  864 S   0.0  0.1   0:01.73 bash
+12006 elephant  20   0  303m  70m  19m S   0.0  7.0  99:31.17 chrome
+12413 elephant  20   0  227m  44m  22m S   0.0  4.5   1:54.69 chrome
+18129 root      20   0     0    0    0 S   0.0  0.0   0:11.17 kworker/u:0
+18764 elephant  30  10  166m  36m 9672 S   0.0  3.6   0:34.95 update-manager
+19878 elephant  20   0  6320 1936 1500 T   0.0  0.2   0:00.01 ssh
+23456 root      20   0  5492 2688  968 S   0.0  0.3   0:00.44 dhclient
+23524 postfix   20   0  4648 1296 1084 S   0.0  0.1   0:00.06 qmgr
+23609 elephant  20   0  135m  25m  11m S   0.0  2.6   0:02.29 check-new-relea
+23695 elephant  20   0  6696 3172 1692 S   0.0  0.3   0:00.74 bash
+23775 elephant  20   0  232m  41m  22m S   0.0  4.1   0:11.91 chrome
+27681 root      20   0     0    0    0 S   0.0  0.0   0:00.12 kworker/0:2
+27707 root      20   0     0    0    0 S   0.0  0.0   0:00.20 kworker/0:1
+27743 root      20   0     0    0    0 S   0.0  0.0   0:00.00 kworker/u:1
+27749 postfix   20   0  4600 1312 1096 S   0.0  0.1   0:00.01 pickup

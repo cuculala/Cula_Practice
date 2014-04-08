@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+	<head>
+	<style>
+	body
+		{background-image:url('kumar.gif');}
+		h1{color:green;text-align:center;}
+		p{font-family:"Times New Roman";font-size:20px;text-indent:30px;}
+		
+	</style>
+	</head>		
+		<body>	
+		<h1>{{fname}} {{lname}}</h1>
+
+		<h3>Recent Posts by {{fname}} {{lname}}</h3> 
+
+		{% for post in posts %}
+			<ul>
+				<p>{{post[0]}}</p>
+				<p>{{post[1]}}</p>
+			</ul>
+		{% endfor %}
+<!-- 		<h4>{{topic}}</h4>
+		<p>{{body}}</p> -->
+	<body>
+
+	</html>

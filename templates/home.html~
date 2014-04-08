@@ -1,0 +1,28 @@
+<!Doctype html>
+
+	<head>
+		<title>
+			Welcome to Clafli University Soccer Club
+		</title>
+	</head>
+	<style type = "text/css">
+	h1{color:red;}
+	tr{color:green;}
+	</style>
+	<body>
+	
+		<h1 style ="text-align:center;" >
+			<a href = "http://bbc.co.uk" style ="text-decoration:none;">We are working on<br><br>the website development.<hr><br></a><h2> Please visit later</h2>
+		</h1>
+		<table border = "10">
+		<tr>
+		<th>	Name	</th><th>	Address	</th><th>	DOB	</th>
+		</tr>		
+		<tr><th>	Kumar</th><th>	Gongabu</th><th>	9/9/2013</th>
+		</tr>
+		</table>		
+		
+		<img border ="0" src="kumar.jpg" alt="Hello" width  = "200" height= "200">
+			
+	</body>
+</html>

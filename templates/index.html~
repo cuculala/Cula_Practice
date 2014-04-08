@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title> Welcome </title>
+	</head>
+
+	<body>
+		<h1> {{fname}} {{lname}}</h1>
+
+		<form action = "/dev">
+			<label for "my_id">Please Input your ID number
+			</label>
+			<input type = "text" name= "my_id">
+			<input type = "submit" value = "Log In">
+
+		</form>
+						
+			<marquee behavior="alternate">{{fname}} {{lname}} </marquee><br>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/4MmmR28xaVA" frameborder="0" allowfullscreen></iframe>
+
+	</body>
+
+	</html>
